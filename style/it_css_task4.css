@@ -7,10 +7,12 @@
 		.left-btn{margin-left: 0.625em;}
 		.right-btn{margin-right: 0.625em;}
 		.box1{width: 100%;display:flex;margin:0.1rem 0;background-color: #fff}
-		.phonelogo{display: inline-block;width: 3em;background-color: #fff;background-image: url(../image/phonelogo.png);background-size: 40%;background-repeat: no-repeat;background-position: center;}
+		.phonelogo{display: inline-block;width: 3em;background-color: #fff;background-image: url(../image/phonelogo.png);background-size: 30%;
+			background-repeat: no-repeat;background-position: center;}
 		.phonenumber{flex-grow:1;height:4em; border: none;font-size: 1em;outline: none;}
 		.box2{width: 100%;display:flex;margin:0.1rem 0;background-color: #fff}
-		.locklogo{display: inline-block;width: 3em;background-color: #fff;background-image: url(../image/locklogo.png);background-size:40%;background-repeat: no-repeat;background-position: center;}
+		.locklogo{display: inline-block;width: 3em;background-color: #fff;background-image: url(../image/locklogo.png);background-size:30%;
+			background-repeat: no-repeat;background-position: center;}
 		.password{flex-grow:1;height:4em; border: none;font-size: 1em;outline: none;}
 		.splitline{width: 1em;background-color: #fff;height:1.5em;border-left: 1px solid #eff0f4;margin: auto 0;}
 		button{width: 100%;background-color:#5fc0cd;color: #fff;border:none;font-size:1em;height: 3em;outline: none; }
