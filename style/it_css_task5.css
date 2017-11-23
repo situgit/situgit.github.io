@@ -1,0 +1,44 @@
+<style type="text/css">
+	* {margin: 0; padding: 0;}
+	html {font-size: 625%;}
+
+	/* 顶部底部布局 */
+	body {font-size: 10px;width:100%;overflow: scroll;}
+	main {margin-bottom: 0.5rem;margin-top: 0.4rem;}
+	header {width: 100%; height: 0.4rem ;line-height: 0.4rem; background-color: #5fc0cd;color: #fff;position: fixed;top: 0; z-index: 999;}
+	.back-btn {text-decoration: none;color: #fff;float: left;margin-left: 0.1rem;font-size: 0.2rem;}
+	.title {text-align: center;margin: 0 0.3rem;font-size: 1.5em}
+	footer {width: 100%;height:0.5rem;position:fixed;bottom: 0;display: flex;}
+	.btn1 {border:2px solid #68c4d0;height: 0.4rem;background-color: #fff;outline: none;border-radius: 5px;color: #68c4d0;font-size:1em;margin:0.1rem;width: 50%;flex-shrink:1;}
+	.btn2 {border-radius: 5px;height:0.4rem;margin:0.1rem;background-color: #68c4d0;color: #fff;font-size: 1em;outline: none;border:none;width: 50%;flex-shrink:1;}
+	/*就上面这么多*/
+
+	.background {width: 100%;height: 1.7rem;background-image: url(../image/task5/background.png);background-size: cover;position: relative;background-repeat: no-repeat;}
+	.avatar {position:absolute;top:0.4rem;left:0.1rem;background-image: url(../image/task5/avatar.png);width: 0.8rem;height: 0.89rem;background-size:contain;background-repeat: no-repeat;}
+	.name {position: absolute;top:0.45rem;left:1.1rem;color:#fff;font-size: 0.15rem;}
+	.location {position: absolute;top:0.73rem;left: 1.3rem;color: #fff;font-size: 0.1rem}
+	.locationlogo {position:absolute;top:0.85rem;left:1.1rem;width:0.12rem;height: 0.22rem;background-image: url(../image/task5/location.png);background-size: 100%;background-repeat: no-repeat;}
+	.line1 {height: 0.55rem;width: 100%;border-bottom: 1px solid #cccccc;display: flex;align-items:center;}
+	.bluelogo {display:inline-block;width: 0.05rem;height:0.15rem;background-color: #5fc0cd;margin-left: 0.1rem; }
+	.line1text {margin-left: 0.1rem;}
+	.line2 {height: 0.55rem;border-bottom: 1px solid #cccccc;margin-right: 0.2rem;margin-left: 0.2rem;}
+	.star1,.star2,.line2text {display: inline-block;}
+	.star1,.star2 {background-image: url(../image/task5/star.png);width: 0.15rem;height: 0.15rem;background-size: 100%;background-repeat: no-repeat;vertical-align: middle;}
+	.star2 {margin-left: 0.2rem;}
+	.line2text {;line-height: 0.55rem;vertical-align: middle;}
+	.line3 {height: 0.55rem;border-bottom: 1px solid #cccccc;margin:0 0.2rem;}
+	.line3text {display: inline-block;vertical-align: middle;line-height: 0.55rem;}
+	.line3text1,.line4text1,.line5text1,.line6text1 {color:#aaa }
+	.splitline {display:inline-block;width: 1px;height: 0.18rem;margin:0 0.1rem;background-color: #cccccc;vertical-align: middle;}
+	.line4 {height: 0.55rem;border-bottom: 1px solid #cccccc;margin:0 0.2rem;}
+	.line4text {display: inline-block;vertical-align: middle;line-height: 0.55rem;}
+	.line5 {height: 0.55rem;border-bottom: 1px solid #cccccc;margin:0 0.2rem;}
+	.line5text {display: inline-block;vertical-align: middle;line-height: 0.55rem;}
+	.line5text2 {color: red;}
+
+	/*最后一行自我介绍那里*/
+	.line6 {border-bottom: 1px solid #cccccc;margin:0 0.2rem;padding: 0.15rem 0;display: flex;align-items:center;}
+	
+	.line6text2 {flex:1;}
+	
+	</style>
